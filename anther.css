@@ -1,0 +1,196 @@
+/* header-section */
+
+.header{
+    background-color:#3498db;
+}
+.header-menu ul {
+	text-align: right;
+	margin-bottom: 0;
+}
+.header-menu ul li {
+	display: inline-block;
+    margin: 0 10px;
+}
+.header-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ddd;
+	font-weight: bold;
+    line-height: 65px;
+    transition: .5s;
+}
+.header-menu ul li:hover >a{
+    color: #fff;
+}
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul {
+	position: absolute;
+	top: 103%;
+	left: -45px;
+	width: 150px;
+	text-align: center;
+	background: #3498db;
+    padding-left: 0;
+    border-top: 2px solid #ddd;
+    opacity: 0;
+	visibility: hidden;
+    transition: .4s;
+    transform: scaley(0);
+    transform-origin: top center;
+    
+}
+.header-menu ul li ul li{
+    display: block;
+    margin: 0 0;
+    border-bottom: 2px solid #ddd;
+}
+.header-menu ul li ul li a{
+    display: block;
+    text-decoration: none;
+}
+.header-menu ul li:hover > ul {
+	opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+.header-logo a img{
+    width: 220px;
+   
+}
+
+/* banner-section */
+
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(https://i.ibb.co/tXDLZ2J/beautiful-beaches-5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner-heading h2 {
+	color: #ddd;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.banner-heading h3 {
+	color: #ddd;
+	font-size: 17px;
+	text-transform: capitalize;
+	margin: 20px 0;
+}
+.banner-heading a {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(0, 0, 0, .10);
+	padding: 5px 18px;
+	display: inline-block;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.banner-heading a:hover{
+    background: rgba(0,0,0,0.5);
+    text-decoration: none;
+
+}
+
+/* about-section */
+
+.about-section{
+    background-color: #f9f9f9;
+}
+.card{
+    background-color: #ddd;
+}
+
+/* service-section */
+
+.service{
+    background-color: #f9f9f9;
+}
+.service-item{
+    border: 1px solid #ddd;
+}
+.service-item a {
+	color: #0cbe9a;
+	text-decoration: none;
+	background-color: transparent;
+	font-size: 28px;
+}
+.service-item h3 {
+	margin:10px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #4c4b44;
+}
+.service-item p {
+	line-height: 18px;
+    padding: 10px;
+    color: #a1a19c;
+}
+
+/* contact */
+
+
+.contact{
+    background-color: #f9f9f9;
+}
+
+
+/* fotter */
+
+
+.fotter{
+    background-color: #0bbf9a;
+}
+.social-menu {
+	text-align: right;
+	margin-bottom: 0;
+}
+.social-menu li {
+	display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    
+}
+.social-menu li a {
+	color: #0bbf9a;
+	display: inline-block;
+	border-radius: 50%;
+	background: #f9f9f9;
+	font-size: 18px;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	transition: .4s;
+}
+.social-menu li:nth-child(1) a:hover{
+    background-color: #3b5a9a;
+    color: #ffffff;
+
+}.social-menu li:nth-child(2) a:hover{
+    background-color:#f03a37;
+    color: #ffffff;
+
+}.social-menu li:nth-child(3) a:hover{
+    background-color: #1aa9e1;
+    color: #ffffff;
+
+}.social-menu li:nth-child(4) a:hover{
+    background-color: #d0202a;
+    color: #ffffff;
+
+}.social-menu li:nth-child(5) a:hover{
+    background-color:#751d62;
+    color: #ffffff;
+
+}
+.fotter-left p {
+	margin-bottom: 0;
+}
